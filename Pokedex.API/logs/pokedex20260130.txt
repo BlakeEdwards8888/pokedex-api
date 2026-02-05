@@ -1,0 +1,291 @@
+2026-01-30 13:57:53.435 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-01-30 13:57:53.543 -05:00 [DBG] Hosting starting
+2026-01-30 13:57:53.767 -05:00 [INF] Now listening on: https://localhost:7155
+2026-01-30 13:57:53.769 -05:00 [INF] Now listening on: http://localhost:5000
+2026-01-30 13:57:53.769 -05:00 [DBG] Loaded hosting startup assembly Pokedex.API
+2026-01-30 13:57:53.770 -05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-01-30 13:57:53.770 -05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-01-30 13:57:53.771 -05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-01-30 13:57:54.016 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-30 13:57:54.017 -05:00 [INF] Hosting environment: Development
+2026-01-30 13:57:54.017 -05:00 [INF] Content root path: C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API
+2026-01-30 13:57:54.018 -05:00 [DBG] Hosting started
+2026-01-30 14:00:12.757 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-01-30 14:01:09.806 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-01-30 14:01:10.136 -05:00 [DBG] Entity Framework Core 8.0.0 initialized 'PokedexContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2026-01-30 14:01:10.150 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:01:10.156 -05:00 [DBG] Created DbConnection. (4ms).
+2026-01-30 14:01:10.160 -05:00 [DBG] Migrating using database 'main' on server ''.
+2026-01-30 14:01:10.163 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:01:10.165 -05:00 [DBG] Created DbConnection. (2ms).
+2026-01-30 14:01:10.166 -05:00 [DBG] Opening connection to database 'main' on server ''.
+2026-01-30 14:01:10.176 -05:00 [DBG] Opened connection to database 'main' on server ''.
+2026-01-30 14:01:10.179 -05:00 [DBG] Disposing connection to database 'main' on server ''.
+2026-01-30 14:01:10.183 -05:00 [DBG] Disposed connection to database 'main' on server '' (0ms).
+2026-01-30 14:01:10.188 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-01-30 14:01:10.192 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2026-01-30 14:01:10.193 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2026-01-30 14:01:10.193 -05:00 [DBG] Opening connection to database 'main' on server ''.
+2026-01-30 14:01:10.193 -05:00 [DBG] Opened connection to database 'main' on server ''.
+2026-01-30 14:01:10.197 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-01-30 14:01:10.211 -05:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-01-30 14:01:10.212 -05:00 [DBG] Closing connection to database 'main' on server ''.
+2026-01-30 14:01:10.212 -05:00 [DBG] Closed connection to database 'main' on server '' (0ms).
+2026-01-30 14:01:10.212 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:01:10.212 -05:00 [DBG] Created DbConnection. (0ms).
+2026-01-30 14:01:10.212 -05:00 [DBG] Opening connection to database 'main' on server ''.
+2026-01-30 14:01:10.213 -05:00 [DBG] Opened connection to database 'main' on server ''.
+2026-01-30 14:01:10.213 -05:00 [DBG] Disposing connection to database 'main' on server ''.
+2026-01-30 14:01:10.213 -05:00 [DBG] Disposed connection to database 'main' on server '' (0ms).
+2026-01-30 14:01:10.265 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-01-30 14:01:10.265 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2026-01-30 14:01:10.265 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2026-01-30 14:01:10.265 -05:00 [DBG] Opening connection to database 'main' on server ''.
+2026-01-30 14:01:10.266 -05:00 [DBG] Opened connection to database 'main' on server ''.
+2026-01-30 14:01:10.266 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2026-01-30 14:01:10.267 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2026-01-30 14:01:10.267 -05:00 [DBG] Closing connection to database 'main' on server ''.
+2026-01-30 14:01:10.267 -05:00 [DBG] Closed connection to database 'main' on server '' (0ms).
+2026-01-30 14:01:10.267 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:01:10.267 -05:00 [DBG] Created DbConnection. (0ms).
+2026-01-30 14:01:10.268 -05:00 [DBG] Opening connection to database 'main' on server ''.
+2026-01-30 14:01:10.268 -05:00 [DBG] Opened connection to database 'main' on server ''.
+2026-01-30 14:01:10.268 -05:00 [DBG] Disposing connection to database 'main' on server ''.
+2026-01-30 14:01:10.268 -05:00 [DBG] Disposed connection to database 'main' on server '' (0ms).
+2026-01-30 14:01:10.268 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-01-30 14:01:10.268 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2026-01-30 14:01:10.268 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2026-01-30 14:01:10.268 -05:00 [DBG] Opening connection to database 'main' on server ''.
+2026-01-30 14:01:10.268 -05:00 [DBG] Opened connection to database 'main' on server ''.
+2026-01-30 14:01:10.268 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-01-30 14:01:10.268 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-01-30 14:01:10.268 -05:00 [DBG] Closing connection to database 'main' on server ''.
+2026-01-30 14:01:10.268 -05:00 [DBG] Closed connection to database 'main' on server '' (0ms).
+2026-01-30 14:01:10.273 -05:00 [DBG] No migrations were found in assembly 'Pokedex.API'.
+2026-01-30 14:01:10.275 -05:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 14:01:10.276 -05:00 [DBG] 'PokedexContext' disposed.
+2026-01-30 14:01:10.276 -05:00 [DBG] Disposing connection to database 'main' on server ''.
+2026-01-30 14:01:10.276 -05:00 [DBG] Disposed connection to database 'main' on server '' (0ms).
+2026-01-30 14:04:51.672 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-01-30 14:04:51.998 -05:00 [DBG] Entity Framework Core 8.0.0 initialized 'PokedexContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2026-01-30 14:04:52.010 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:04:52.016 -05:00 [DBG] Created DbConnection. (4ms).
+2026-01-30 14:04:52.020 -05:00 [DBG] Migrating using database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.021 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:04:52.023 -05:00 [DBG] Created DbConnection. (1ms).
+2026-01-30 14:04:52.024 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.031 -05:00 [DBG] An error occurred using the connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.032 -05:00 [DBG] Disposing connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.035 -05:00 [DBG] Disposed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:04:52.035 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:04:52.035 -05:00 [DBG] Created DbConnection. (0ms).
+2026-01-30 14:04:52.035 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.035 -05:00 [DBG] An error occurred using the connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.035 -05:00 [DBG] Disposing connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.035 -05:00 [DBG] Disposed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:04:52.035 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.040 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:04:52.044 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-01-30 14:04:52.048 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2026-01-30 14:04:52.048 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2026-01-30 14:04:52.052 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2026-01-30 14:04:52.076 -05:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2026-01-30 14:04:52.077 -05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:04:52.078 -05:00 [DBG] Closed connection to database 'main' on server 'Pokedex.db' (1ms).
+2026-01-30 14:04:52.128 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-01-30 14:04:52.128 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2026-01-30 14:04:52.128 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2026-01-30 14:04:52.128 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.128 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:04:52.128 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2026-01-30 14:04:52.136 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2026-01-30 14:04:52.136 -05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:04:52.136 -05:00 [DBG] Closed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:04:52.137 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:04:52.137 -05:00 [DBG] Created DbConnection. (0ms).
+2026-01-30 14:04:52.137 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.137 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:04:52.138 -05:00 [DBG] Disposing connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.138 -05:00 [DBG] Disposed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:04:52.140 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-01-30 14:04:52.140 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2026-01-30 14:04:52.140 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2026-01-30 14:04:52.140 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.140 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:04:52.140 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-01-30 14:04:52.142 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-01-30 14:04:52.142 -05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:04:52.142 -05:00 [DBG] Closed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:04:52.143 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.143 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:04:52.143 -05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-01-30 14:04:52.143 -05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2026-01-30 14:04:52.143 -05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-01-30 14:04:52.143 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-30 14:04:52.143 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-30 14:04:52.145 -05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:04:52.145 -05:00 [DBG] A data reader for 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db' is being disposed after spending 1ms reading results.
+2026-01-30 14:04:52.145 -05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:04:52.145 -05:00 [DBG] Closed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:04:52.151 -05:00 [DBG] No migrations were found in assembly 'Pokedex.API'.
+2026-01-30 14:04:52.154 -05:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 14:04:52.154 -05:00 [DBG] 'PokedexContext' disposed.
+2026-01-30 14:04:52.636 -05:00 [DBG] Disposing connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:04:52.636 -05:00 [DBG] Disposed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:12:17.672 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-01-30 14:12:18.004 -05:00 [DBG] Entity Framework Core 8.0.0 initialized 'PokedexContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2026-01-30 14:12:18.486 -05:00 [DBG] 'PokedexContext' disposed.
+2026-01-30 14:12:55.104 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-01-30 14:12:55.432 -05:00 [DBG] Entity Framework Core 8.0.0 initialized 'PokedexContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2026-01-30 14:12:55.444 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:12:55.451 -05:00 [DBG] Created DbConnection. (4ms).
+2026-01-30 14:12:55.455 -05:00 [DBG] Migrating using database 'main' on server 'Pokedex.db'.
+2026-01-30 14:12:55.456 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:12:55.458 -05:00 [DBG] Created DbConnection. (1ms).
+2026-01-30 14:12:55.459 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:12:55.465 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:55.467 -05:00 [DBG] Disposing connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:12:55.470 -05:00 [DBG] Disposed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:12:55.475 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-01-30 14:12:55.479 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2026-01-30 14:12:55.480 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (6ms).
+2026-01-30 14:12:55.480 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:12:55.481 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:55.485 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-01-30 14:12:55.498 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-01-30 14:12:55.499 -05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:55.500 -05:00 [DBG] Closed connection to database 'main' on server 'Pokedex.db' (1ms).
+2026-01-30 14:12:55.500 -05:00 [DBG] Creating DbConnection.
+2026-01-30 14:12:55.500 -05:00 [DBG] Created DbConnection. (0ms).
+2026-01-30 14:12:55.500 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:12:55.501 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:55.501 -05:00 [DBG] Disposing connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:12:55.501 -05:00 [DBG] Disposed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:12:55.501 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2026-01-30 14:12:55.501 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2026-01-30 14:12:55.501 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2026-01-30 14:12:55.501 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:12:55.501 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:55.501 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-01-30 14:12:55.501 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-01-30 14:12:55.501 -05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:55.502 -05:00 [DBG] Closed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:12:55.512 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:12:55.512 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:55.512 -05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2026-01-30 14:12:55.512 -05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2026-01-30 14:12:55.512 -05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-01-30 14:12:55.512 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-30 14:12:55.541 -05:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-30 14:12:55.543 -05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:55.543 -05:00 [DBG] A data reader for 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db' is being disposed after spending 1ms reading results.
+2026-01-30 14:12:55.543 -05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:55.543 -05:00 [DBG] Closed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:12:55.550 -05:00 [INF] Applying migration '20260130191218_IntiaMigrationl'.
+2026-01-30 14:12:55.580 -05:00 [DBG] Opening connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:12:55.580 -05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:55.581 -05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2026-01-30 14:12:55.584 -05:00 [DBG] Began transaction with isolation level 'Serializable'.
+2026-01-30 14:12:55.585 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-01-30 14:12:55.585 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2026-01-30 14:12:55.585 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2026-01-30 14:12:55.585 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Pokemons" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Pokemons" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Type1" TEXT NOT NULL,
+    "Type2" TEXT NULL,
+    "Description" TEXT NULL
+);
+2026-01-30 14:12:55.586 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Pokemons" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Pokemons" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Type1" TEXT NOT NULL,
+    "Type2" TEXT NULL,
+    "Description" TEXT NULL
+);
+2026-01-30 14:12:55.586 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-01-30 14:12:55.586 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2026-01-30 14:12:55.586 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2026-01-30 14:12:55.586 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Pokemons" ("Id", "Description", "Name", "Type1", "Type2")
+VALUES (1, 'bulba boy', 'Bulbasaur', 'grass', 'poison');
+SELECT changes();
+
+INSERT INTO "Pokemons" ("Id", "Description", "Name", "Type1", "Type2")
+VALUES (2, 'big bulba', 'Ivysaur', 'grass', 'poison');
+SELECT changes();
+
+INSERT INTO "Pokemons" ("Id", "Description", "Name", "Type1", "Type2")
+VALUES (3, 'bulba chungus', 'Venusaur', 'grass', 'poison');
+SELECT changes();
+2026-01-30 14:12:55.586 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Pokemons" ("Id", "Description", "Name", "Type1", "Type2")
+VALUES (1, 'bulba boy', 'Bulbasaur', 'grass', 'poison');
+SELECT changes();
+
+INSERT INTO "Pokemons" ("Id", "Description", "Name", "Type1", "Type2")
+VALUES (2, 'big bulba', 'Ivysaur', 'grass', 'poison');
+SELECT changes();
+
+INSERT INTO "Pokemons" ("Id", "Description", "Name", "Type1", "Type2")
+VALUES (3, 'bulba chungus', 'Venusaur', 'grass', 'poison');
+SELECT changes();
+2026-01-30 14:12:55.586 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2026-01-30 14:12:55.586 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2026-01-30 14:12:55.586 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2026-01-30 14:12:55.587 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260130191218_IntiaMigrationl', '8.0.0');
+2026-01-30 14:12:55.587 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260130191218_IntiaMigrationl', '8.0.0');
+2026-01-30 14:12:55.587 -05:00 [DBG] Committing transaction.
+2026-01-30 14:12:55.595 -05:00 [DBG] Committed transaction.
+2026-01-30 14:12:55.596 -05:00 [DBG] Disposing transaction.
+2026-01-30 14:12:56.426 -05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API\Pokedex.db'.
+2026-01-30 14:12:56.426 -05:00 [DBG] Closed connection to database 'main' on server 'Pokedex.db' (0ms).
+2026-01-30 14:12:56.427 -05:00 [DBG] 'PokedexContext' disposed.
+2026-01-30 14:12:56.428 -05:00 [DBG] Disposing connection to database 'main' on server 'Pokedex.db'.
+2026-01-30 14:12:56.428 -05:00 [DBG] Disposed connection to database 'main' on server 'Pokedex.db' (0ms).

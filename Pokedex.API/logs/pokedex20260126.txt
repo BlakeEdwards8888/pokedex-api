@@ -1,0 +1,114 @@
+2026-01-26 15:33:29.685 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-01-26 15:33:29.770 -05:00 [DBG] Hosting starting
+2026-01-26 15:33:29.947 -05:00 [INF] Now listening on: https://localhost:7155
+2026-01-26 15:33:29.949 -05:00 [INF] Now listening on: http://localhost:5000
+2026-01-26 15:33:29.949 -05:00 [DBG] Loaded hosting startup assembly Pokedex.API
+2026-01-26 15:33:29.950 -05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-01-26 15:33:29.950 -05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-01-26 15:33:29.950 -05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-01-26 15:33:30.060 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 15:33:30.062 -05:00 [INF] Hosting environment: Development
+2026-01-26 15:33:30.063 -05:00 [INF] Content root path: C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API
+2026-01-26 15:33:30.064 -05:00 [DBG] Hosting started
+2026-01-26 15:33:30.362 -05:00 [DBG] Connection id "0HNIT38LEHE9R" received FIN.
+2026-01-26 15:33:30.432 -05:00 [DBG] Connection id "0HNIT38LEHE9R" accepted.
+2026-01-26 15:33:30.434 -05:00 [DBG] Connection id "0HNIT38LEHE9R" started.
+2026-01-26 15:33:30.436 -05:00 [DBG] Connection id "0HNIT38LEHE9S" accepted.
+2026-01-26 15:33:30.437 -05:00 [DBG] Connection id "0HNIT38LEHE9S" started.
+2026-01-26 15:33:30.453 -05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-01-26 15:33:30.483 -05:00 [DBG] Connection id "0HNIT38LEHE9R" stopped.
+2026-01-26 15:33:30.492 -05:00 [DBG] Connection 0HNIT38LEHE9S established using the following protocol: "Tls12"
+2026-01-26 15:33:30.494 -05:00 [DBG] Connection id "0HNIT38LEHE9R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-01-26 15:33:30.532 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7155/api/pokemon/10 - null null
+2026-01-26 15:33:30.541 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-01-26 15:33:30.548 -05:00 [DBG] The request path  does not match the path filter
+2026-01-26 15:33:30.563 -05:00 [DBG] 1 candidate(s) found for the request path '/api/pokemon/10'
+2026-01-26 15:33:30.566 -05:00 [DBG] Endpoint 'Pokedex.API.Controllers.PokemonController.GetPokemon (Pokedex.API)' with route pattern 'api/pokemon/{pokemonId}' is valid for the request path '/api/pokemon/10'
+2026-01-26 15:33:30.567 -05:00 [DBG] Request matched endpoint 'Pokedex.API.Controllers.PokemonController.GetPokemon (Pokedex.API)'
+2026-01-26 15:33:30.570 -05:00 [INF] Executing endpoint 'Pokedex.API.Controllers.PokemonController.GetPokemon (Pokedex.API)'
+2026-01-26 15:33:30.588 -05:00 [INF] Route matched with {action = "GetPokemon", controller = "Pokemon"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Pokedex.API.Models.PokemonDto] GetPokemon(Int32) on controller Pokedex.API.Controllers.PokemonController (Pokedex.API).
+2026-01-26 15:33:30.591 -05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-01-26 15:33:30.592 -05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-01-26 15:33:30.593 -05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-01-26 15:33:30.595 -05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-01-26 15:33:30.596 -05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-01-26 15:33:30.598 -05:00 [DBG] Executing controller factory for controller Pokedex.API.Controllers.PokemonController (Pokedex.API)
+2026-01-26 15:33:30.600 -05:00 [DBG] Executed controller factory for controller Pokedex.API.Controllers.PokemonController (Pokedex.API)
+2026-01-26 15:33:30.608 -05:00 [DBG] Attempting to bind parameter 'pokemonId' of type 'System.Int32' ...
+2026-01-26 15:33:30.610 -05:00 [DBG] Attempting to bind parameter 'pokemonId' of type 'System.Int32' using the name 'pokemonId' in request data ...
+2026-01-26 15:33:30.612 -05:00 [DBG] Done attempting to bind parameter 'pokemonId' of type 'System.Int32'.
+2026-01-26 15:33:30.612 -05:00 [DBG] Done attempting to bind parameter 'pokemonId' of type 'System.Int32'.
+2026-01-26 15:33:30.613 -05:00 [DBG] Attempting to validate the bound parameter 'pokemonId' of type 'System.Int32' ...
+2026-01-26 15:33:30.615 -05:00 [DBG] Done attempting to validate the bound parameter 'pokemonId' of type 'System.Int32'.
+2026-01-26 15:33:30.618 -05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2026-01-26 15:33:30.621 -05:00 [DBG] No information found on request to perform content negotiation.
+2026-01-26 15:33:30.622 -05:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2026-01-26 15:33:30.624 -05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2026-01-26 15:33:30.625 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-01-26 15:33:30.705 -05:00 [INF] Executed action Pokedex.API.Controllers.PokemonController.GetPokemon (Pokedex.API) in 105.6996ms
+2026-01-26 15:33:30.707 -05:00 [INF] Executed endpoint 'Pokedex.API.Controllers.PokemonController.GetPokemon (Pokedex.API)'
+2026-01-26 15:33:30.708 -05:00 [DBG] Connection id "0HNIT38LEHE9S" completed keep alive response.
+2026-01-26 15:33:30.710 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7155/api/pokemon/10 - 404 162 application/problem+json; charset=utf-8 187.8131ms
+2026-01-26 15:35:20.845 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-01-26 15:35:20.931 -05:00 [DBG] Hosting starting
+2026-01-26 15:35:21.091 -05:00 [INF] Now listening on: https://localhost:7155
+2026-01-26 15:35:21.092 -05:00 [INF] Now listening on: http://localhost:5000
+2026-01-26 15:35:21.093 -05:00 [DBG] Loaded hosting startup assembly Pokedex.API
+2026-01-26 15:35:21.093 -05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-01-26 15:35:21.094 -05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-01-26 15:35:21.094 -05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-01-26 15:35:21.199 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 15:35:21.200 -05:00 [INF] Hosting environment: Development
+2026-01-26 15:35:21.200 -05:00 [INF] Content root path: C:\Users\blake\source\repos\Pokedex\Pokedex.API\Pokedex.API
+2026-01-26 15:35:21.201 -05:00 [DBG] Hosting started
+2026-01-26 15:35:22.705 -05:00 [DBG] Connection id "0HNIT39MTTOV5" received FIN.
+2026-01-26 15:35:22.712 -05:00 [DBG] Connection id "0HNIT39MTTOV5" accepted.
+2026-01-26 15:35:22.714 -05:00 [DBG] Connection id "0HNIT39MTTOV5" started.
+2026-01-26 15:35:22.716 -05:00 [DBG] Connection id "0HNIT39MTTOV6" accepted.
+2026-01-26 15:35:22.717 -05:00 [DBG] Connection id "0HNIT39MTTOV6" started.
+2026-01-26 15:35:22.730 -05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-01-26 15:35:22.764 -05:00 [DBG] Connection id "0HNIT39MTTOV5" stopped.
+2026-01-26 15:35:22.767 -05:00 [DBG] Connection 0HNIT39MTTOV6 established using the following protocol: "Tls12"
+2026-01-26 15:35:22.768 -05:00 [DBG] Connection id "0HNIT39MTTOV5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-01-26 15:35:22.802 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7155/api/pokemon/10 - null null
+2026-01-26 15:35:22.816 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-01-26 15:35:22.822 -05:00 [DBG] The request path  does not match the path filter
+2026-01-26 15:35:22.839 -05:00 [DBG] 1 candidate(s) found for the request path '/api/pokemon/10'
+2026-01-26 15:35:22.844 -05:00 [DBG] Endpoint 'Pokedex.API.Controllers.PokemonController.GetPokemon (Pokedex.API)' with route pattern 'api/pokemon/{pokemonId}' is valid for the request path '/api/pokemon/10'
+2026-01-26 15:35:22.846 -05:00 [DBG] Request matched endpoint 'Pokedex.API.Controllers.PokemonController.GetPokemon (Pokedex.API)'
+2026-01-26 15:35:22.849 -05:00 [INF] Executing endpoint 'Pokedex.API.Controllers.PokemonController.GetPokemon (Pokedex.API)'
+2026-01-26 15:35:22.869 -05:00 [INF] Route matched with {action = "GetPokemon", controller = "Pokemon"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Pokedex.API.Models.PokemonDto] GetPokemon(Int32) on controller Pokedex.API.Controllers.PokemonController (Pokedex.API).
+2026-01-26 15:35:22.873 -05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-01-26 15:35:22.875 -05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-01-26 15:35:22.876 -05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-01-26 15:35:22.878 -05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-01-26 15:35:22.879 -05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-01-26 15:35:22.881 -05:00 [DBG] Executing controller factory for controller Pokedex.API.Controllers.PokemonController (Pokedex.API)
+2026-01-26 15:35:22.882 -05:00 [DBG] Executed controller factory for controller Pokedex.API.Controllers.PokemonController (Pokedex.API)
+2026-01-26 15:35:22.893 -05:00 [DBG] Attempting to bind parameter 'pokemonId' of type 'System.Int32' ...
+2026-01-26 15:35:22.896 -05:00 [DBG] Attempting to bind parameter 'pokemonId' of type 'System.Int32' using the name 'pokemonId' in request data ...
+2026-01-26 15:35:22.897 -05:00 [DBG] Done attempting to bind parameter 'pokemonId' of type 'System.Int32'.
+2026-01-26 15:35:22.897 -05:00 [DBG] Done attempting to bind parameter 'pokemonId' of type 'System.Int32'.
+2026-01-26 15:35:22.898 -05:00 [DBG] Attempting to validate the bound parameter 'pokemonId' of type 'System.Int32' ...
+2026-01-26 15:35:22.900 -05:00 [DBG] Done attempting to validate the bound parameter 'pokemonId' of type 'System.Int32'.
+2026-01-26 15:35:22.951 -05:00 [FTL] Exception will getting a pokemon with id 10
+2026-01-26 15:35:22.954 -05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2026-01-26 15:35:22.957 -05:00 [DBG] No information found on request to perform content negotiation.
+2026-01-26 15:35:22.958 -05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-01-26 15:35:22.959 -05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-01-26 15:35:22.960 -05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2026-01-26 15:35:22.961 -05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2026-01-26 15:35:22.966 -05:00 [INF] Executed action Pokedex.API.Controllers.PokemonController.GetPokemon (Pokedex.API) in 84.1905ms
+2026-01-26 15:35:22.968 -05:00 [INF] Executed endpoint 'Pokedex.API.Controllers.PokemonController.GetPokemon (Pokedex.API)'
+2026-01-26 15:35:22.970 -05:00 [DBG] Connection id "0HNIT39MTTOV6" completed keep alive response.
+2026-01-26 15:35:22.972 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7155/api/pokemon/10 - 500 null text/plain; charset=utf-8 176.6188ms

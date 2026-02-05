@@ -1,0 +1,139 @@
+[
+  {
+    "ContainingType": "Pokedex.API.Controllers.PokemonController",
+    "Method": "GetAllPokemon",
+    "RelativePath": "api/pokemon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokedex.API.Models.PokemonDto, Pokedex.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokedex.API.Controllers.PokemonController",
+    "Method": "CreatePokemon",
+    "RelativePath": "api/pokemon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pokemonToCreate",
+        "Type": "Pokedex.API.Models.PokemonDto_Create",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Pokedex.API.Models.PokemonDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokedex.API.Controllers.PokemonController",
+    "Method": "GetPokemon",
+    "RelativePath": "api/pokemon/{pokemonId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pokemonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Pokedex.API.Models.PokemonDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetPokemon"
+  },
+  {
+    "ContainingType": "Pokedex.API.Controllers.PokemonController",
+    "Method": "UpdatePokemon",
+    "RelativePath": "api/pokemon/{pokemonId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pokemonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pokemon",
+        "Type": "Pokedex.API.Models.PokemonDto_Update",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pokedex.API.Controllers.PokemonController",
+    "Method": "PatchPokemon",
+    "RelativePath": "api/pokemon/{pokemonId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pokemonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchDocument",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pokedex.API.Controllers.PokemonController",
+    "Method": "DeletePokemon",
+    "RelativePath": "api/pokemon/{pokemonId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pokemonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
