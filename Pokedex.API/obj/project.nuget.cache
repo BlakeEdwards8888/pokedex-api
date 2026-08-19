@@ -1,19 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "weCJ4xfSbP0=",
+  "dgSpecHash": "VCyEmPqDT4s=",
   "success": true,
   "projectFilePath": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\blake\\.nuget\\packages\\asp.versioning.abstractions\\10.2.1\\asp.versioning.abstractions.10.2.1.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\asp.versioning.http\\10.2.1\\asp.versioning.http.10.2.1.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\asp.versioning.mvc\\10.2.1\\asp.versioning.mvc.10.2.1.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\10.2.1\\asp.versioning.mvc.apiexplorer.10.2.1.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\marvin.cache.headers\\7.2.0\\marvin.cache.headers.7.2.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\10.0.2\\microsoft.aspnetcore.jsonpatch.10.0.2.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.23\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.23.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0\\microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.5.0\\microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.5.0\\microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
-    "C:\\Users\\blake\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
@@ -68,15 +74,37 @@
     "C:\\Users\\blake\\.nuget\\packages\\system.composition.hosting\\6.0.0\\system.composition.hosting.6.0.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
-    "C:\\Users\\blake\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
-    "C:\\Users\\blake\\.nuget\\packages\\system.io.pipelines\\10.0.0\\system.io.pipelines.10.0.0.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
-    "C:\\Users\\blake\\.nuget\\packages\\system.text.encodings.web\\10.0.0\\system.text.encodings.web.10.0.0.nupkg.sha512",
-    "C:\\Users\\blake\\.nuget\\packages\\system.text.json\\10.0.0\\system.text.json.10.0.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Extensions.Caching.Memory' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qj66-m88j-hmgj",
+      "projectPath": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
+      "libraryId": "Microsoft.Extensions.Caching.Memory",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.6 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
+      "projectPath": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
+      "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
