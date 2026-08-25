@@ -1,10 +1,8 @@
 using Asp.Versioning;
 using Asp.Versioning.ApiExplorer;
 using Microsoft.AspNetCore.StaticFiles;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Pokedex.API;
-using Pokedex.API.Contexts;
 using System.Reflection;
 
 
@@ -66,9 +64,6 @@ static WebApplication ConfigureServices(WebApplicationBuilder builder)
 
     builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
     builder.Services.AddSingleton<PokemonDataStore>();
-    builder.Services.AddDbContext<PokedexContext>(
-        dbContextOptions => dbContextOptions.UseSqlite(builder.Configuration["ConnectionStrings:PokedexDBConnectionString"])
-        );
 
     return builder.Build();
 }

@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|solutionrelative:pokedex.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|c:\\users\\blake\\source\\repos\\pokedex\\pokedex.api\\pokedex.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|solutionrelative:pokedex.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|c:\\users\\blake\\source\\repos\\pokedex\\pokedex.api\\pokedex.api\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|solutionrelative:pokedex.api\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|c:\\users\\blake\\source\\repos\\pokedex\\pokedex.api\\pokedex.api\\pokemondatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|solutionrelative:pokedex.api\\pokemondatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|c:\\users\\blake\\source\\repos\\pokedex\\pokedex.api\\pokedex.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|solutionrelative:pokedex.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|c:\\users\\blake\\source\\repos\\pokedex\\pokedex.api\\pokedex.api\\pokedex.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|c:\\users\\blake\\source\\repos\\pokedex\\pokedex.api\\pokedex.api\\pokedex.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|solutionrelative:pokedex.api\\pokedex.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|c:\\users\\blake\\source\\repos\\pokedex\\pokedex.api\\pokedex.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CB1EAF23-939D-464C-92D9-C5BF202979B1}|Pokedex.API\\Pokedex.API.csproj|solutionrelative:pokedex.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,29 +77,32 @@
               "Name": "ST:1793084389:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pokedex.API",
-              "DocumentMoniker": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
-              "RelativeDocumentMoniker": "Pokedex.API\\Pokedex.API.csproj",
-              "ToolTip": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
-              "RelativeToolTip": "Pokedex.API\\Pokedex.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-18T19:32:47.181Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PokemonDataStore.cs",
+              "DocumentMoniker": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\PokemonDataStore.cs",
+              "RelativeDocumentMoniker": "Pokedex.API\\PokemonDataStore.cs",
+              "ToolTip": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\PokemonDataStore.cs",
+              "RelativeToolTip": "Pokedex.API\\PokemonDataStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T15:37:58.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Pokedex.API",
               "DocumentMoniker": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
               "RelativeDocumentMoniker": "Pokedex.API\\Pokedex.API.csproj",
               "ToolTip": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
               "RelativeToolTip": "Pokedex.API\\Pokedex.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-18T19:21:31.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T19:21:31.087Z"
             },
             {
               "$type": "Document",
@@ -101,20 +112,19 @@
               "RelativeDocumentMoniker": "Pokedex.API\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "Pokedex.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-18T18:56:45.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T18:56:45.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PokemonController.cs",
               "DocumentMoniker": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Controllers\\PokemonController.cs",
               "RelativeDocumentMoniker": "Pokedex.API\\Controllers\\PokemonController.cs",
               "ToolTip": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Controllers\\PokemonController.cs",
               "RelativeToolTip": "Pokedex.API\\Controllers\\PokemonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T18:23:58.562Z",
               "EditorCaption": ""
@@ -127,10 +137,35 @@
               "RelativeDocumentMoniker": "Pokedex.API\\Program.cs",
               "ToolTip": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Program.cs",
               "RelativeToolTip": "Pokedex.API\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-24T14:39:13.13Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Pokedex.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\appsettings.Development.json",
+              "RelativeToolTip": "Pokedex.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-19T14:40:10.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pokedex.API.csproj",
+              "DocumentMoniker": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
+              "RelativeDocumentMoniker": "Pokedex.API\\Pokedex.API.csproj",
+              "ToolTip": "C:\\Users\\blake\\source\\repos\\Pokedex\\Pokedex.API\\Pokedex.API\\Pokedex.API.csproj",
+              "RelativeToolTip": "Pokedex.API\\Pokedex.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-18T19:32:47.181Z"
             }
           ]
         }
